@@ -1,6 +1,6 @@
 ## In this repository we are going to play with Python libraries.
 
-### Till mow we have convert 
+### Till now we have covered
 
-* Paramiko: Which is mainly used for SFTP file Transfer.
-* Pypika: It is use to generate SQL queries in Pythonic ways
+* Paramiko: This is mainly used for SFTP File Transfer.
+* Pypika: It is used to generate SQL queries in Pythonic ways
