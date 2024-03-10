@@ -2,6 +2,7 @@
 # if you run this program without asycio it will take 6 seconds to excecute but with asyncio only 4 seconds
 
 import asyncio
+import time
 
 
 async def callRajan():
@@ -15,10 +16,13 @@ async def callSharma():
 
 
 async def main():
+    start = time.time()
     task1 = asyncio.create_task(callRajan())
     task2 = asyncio.create_task(callSharma())
     await task1
     await task2
+    end = time.time()
+    print(f"Time taken with asyncio is {end - start}")
 
 if __name__ == "__main__":
     asyncio.run(main())
