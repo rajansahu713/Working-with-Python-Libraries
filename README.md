@@ -37,7 +37,6 @@ Getting Started
 
 * If you have any questions, issues, or suggestions regarding the examples or this repository, please don't hesitate to contact us.
 * If you to see a particular library, you can go message us, and we will create it on that Python Library.
-* Fork the repository and clone it to your local machine.
 * Email: rajansahu713@gmail.com
 
 <br><br>
